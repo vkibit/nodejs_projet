@@ -11,7 +11,9 @@ app.use(express.static('public'));
 // ajout d'autres répertoire css, js, img, etc.
 app.use('/css', express.static(__dirname + 'public/css'))
 app.use('/js', express.static(__dirname + 'public/js'))
-app.use('/img', express.static(__dirname + 'public/img'))
+app.use('/pics', express.static(__dirname + 'public/pics'))
+app.use('/files', express.static(__dirname + 'public/files'))
+app.use(express.static("vues"));
 
 // Définitions du répertoire pour le rendus
 app.set('views', './vues');
@@ -20,9 +22,9 @@ app.set('view engine', 'ejs');
 // Le processus qui rend votre page ejs si une demande de type get
 app.get('', (req, res) => {
     res.render('index', { mavar: 'Hello cool le nodejs !'})
+    //res.render('about')
 })
-
-/*app.get('/about', (req, res) => {
+/*
+app.get('/', (req, res) => {
    res.sendFile(__dirname + '/vues/about.html')
-})
-*/
+})*/

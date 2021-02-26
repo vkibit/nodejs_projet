@@ -2,10 +2,10 @@
   "name": "nodejs_projet",
   "version": "1.0.0",
   "description": "projet nodejs avec rendu html",
-  "main": "app.js",
+  "main": "parkings_mongo_api.js",
   "scripts": {
     "test": "echo \"Error: pas de test specifié\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon parkings_mongo_api.js"
   },
   "repository": {
     "type": "git",
