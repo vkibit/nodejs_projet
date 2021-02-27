@@ -8,7 +8,7 @@ const parkings = require('./parkings.json')
  * Import MongoClient et connexion au serveur bd Mongodb
  */
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://vkbg:mongokbg01@kbgcluster0.2utwb.mongodb.net/kbg?retryWrites=true&w=majority";
+const url = 'mongodb://localhost:27017';
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 client.connect(err => {
   const collection = client.db("test").collection("devices");
@@ -19,7 +19,6 @@ client.connect(err => {
 /*
 const MongoClient = require('mongodb').MongoClient;
 //const url = 'mongodb://localhost:27017';
-const url = "mongodb+srv://vkbg:mongodbkbg01@kbgcluster0.2utwb.mongodb.net/kbg";
 const dbName = 'kbg';
 let db
 MongoClient.connect(url, function(err, client) {
