@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-25T18:24:54.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Fojhk1R63o-Z2iP9TBFM" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-25T18:26:00.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="tuVsn-tgNd7Fo15EVL6-" version="14.9.2" type="github">
   <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
     <mxGraphModel dx="1226" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -16,9 +16,11 @@
         <mxCell id="69ecfefc5c41e42c-7" value="PC" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Workstation_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22" parent="1" vertex="1">
           <mxGeometry x="240" y="540" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="69ecfefc5c41e42c-9" value="Laptop" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Netbook_128x128.png;rounded=1;shadow=0;comic=0;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;fontSize=22;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="650" y="570" width="80" height="80" as="geometry" />
-        </mxCell>
+        <object label="Laptop" id="69ecfefc5c41e42c-9">
+          <mxCell style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Netbook_128x128.png;rounded=1;shadow=0;comic=0;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;fontSize=22;fontColor=#000000;" parent="1" vertex="1">
+            <mxGeometry x="650" y="570" width="80" height="80" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="69ecfefc5c41e42c-10" value="Laptop" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Netbook_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22" parent="1" vertex="1">
           <mxGeometry x="890" y="560" width="80" height="80" as="geometry" />
         </mxCell>
